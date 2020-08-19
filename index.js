@@ -19,7 +19,7 @@ var CropOriginal = /** @class */ (function (_super) {
     }
     CropOriginal.prototype.crop = function (pathToImage, options) { return cordova(this, "crop", { "callbackOrder": "reverse" }, arguments); };
     CropOriginal.pluginName = "Crop";
-    CropOriginal.plugin = "cordova-plugin-crop-v1";
+    CropOriginal.plugin = "cordova-plugin-crop";
     CropOriginal.pluginRef = "plugins";
     CropOriginal.repo = "https://github.com/kalaiprakash93/cordova-plugin-crop-v1";
     CropOriginal.platforms = ["Android", "iOS"];
