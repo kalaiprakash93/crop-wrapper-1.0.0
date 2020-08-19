@@ -8,9 +8,9 @@ var Crop = /** @class */ (function (_super) {
     }
     Crop.prototype.crop = function (pathToImage, options) { return cordova(this, "crop", { "callbackOrder": "reverse" }, arguments); };
     Crop.pluginName = "Crop";
-    Crop.plugin = "cordova-plugin-crop";
+    Crop.plugin = "cordova-plugin-crop-v1";
     Crop.pluginRef = "plugins";
-    Crop.repo = "https://github.com/kalaiprakash93/cordova-plugin-crop";
+    Crop.repo = "https://github.com/kalaiprakash93/cordova-plugin-crop-v1";
     Crop.platforms = ["Android", "iOS"];
     Crop = __decorate([
         Injectable()
