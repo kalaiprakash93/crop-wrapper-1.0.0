@@ -18,6 +18,7 @@ var CropOriginal = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     CropOriginal.prototype.crop = function (pathToImage, options) { return cordova(this, "crop", { "callbackOrder": "reverse" }, arguments); };
+    CropOriginal.prototype.checkStatus = function (pathToImage, options) { return cordova(this, "checkStatus", { "callbackOrder": "reverse" }, arguments); };
     CropOriginal.pluginName = "Crop";
     CropOriginal.plugin = "cordova-plugin-crop";
     CropOriginal.pluginRef = "plugins";
